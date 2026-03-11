@@ -229,9 +229,8 @@ h3{
         grid-template-columns: 1fr; /* Stack education boxes on smaller screens */
     }
 
-    /*adjust*/
     .boxes-container-I, .boxes-container-II{
-    gap: 3rem;
+    gap: 10rem;
     }
 
     .contact-information {
