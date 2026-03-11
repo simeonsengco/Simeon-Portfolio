@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simeon Portfolio</title>
+        <link rel="icon" href="./icon/logo.png" type="image/png"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+        <header class="head">
+            <h1 id="Name">SIMEON SENGCO III</h1>
+            <button class="menu-toggle" id="menu-toggle">☰</button>
+            <div class="navigation-container">
+                <a href="#home" class="nav-link"><i class="bi bi-house-door-fill nav-icon" id="home-icon" aria-hidden="true"></i><span class="sr-only">Home</span></a>
+                <a href="#education" class="nav-link"><i class="bi bi-mortarboard-fill nav-icon" id="education-icon" aria-hidden="true"></i><span class="sr-only">Education</span></a>
+                <a href="#skills" class="nav-link"><i class="bi bi-laptop-fill nav-icon" id="skills-icon" aria-hidden="true"></i><span class="sr-only">Skills</span></a>
+                <a href="#contact" class="nav-link"><i class="bi bi-envelope-fill nav-icon" id="contact-icon" aria-hidden="true"></i><span class="sr-only">Contact</span></a>
+            </div>
+            
+            
+        </header>
+
+        <section class="home" id="home">
+                <div class="greetings">
+                    <img id="pers" src="icon/HelloPerson.png" alt="image">
+                </div>
+                <div class="home-info">
+                    <h2 id="effects-letter">I'm a 
+                        <span style="--i:4" data-text="Web Developer">Web Developer</span>
+                        <span style="--i:3" data-text="Graphic Artist">Graphic Artist</span>
+                        <span style="--i:2" data-text="Coffee Enthusiast">Coffee Enthusiast</span>
+                        <span style="--i:1" data-text="Fish Keeper">Fish Keeper</span>
+                    </h2>
+                </div>
+        </section>
+
+        <section class="educationalattainment" id="education">
+            <h3 id="EDUCATIONAL">EDUCATIONAL ATTAINMENT</h3>
+
+            <div class="education-grid">
+                <div class="education-box glass" style="background-image: url(skill-box/gree.png);">
+                    <h1 class="BD">Bachelor Degree</h1>                    
+                    <p class="BD-info">Bachelor of Science in Information Technology</br>
+                    STI Academic Center</br>
+                    Caloocan City</br>
+                    2022-2024</br>
+                    <button id="BDbtn" onclick="toggleImage('STIcert')">Certificate and Achievement</button></p>
+                    <img id="STIcert" src="white-space/STI.jpg" alt="STI Certificate" style="display: none; width: 300px;">
+                </div>
+
+                <div class="education-box glass" style="background-image: url(skill-box/orange.png);">
+                    <h1 class="SHS">Senior High School</h1>                    
+                    <p class="SHS-info">Science Technology Engineering and Mathematics</br>
+                        AMA Computer College</br>
+                        Caloocan City</br>
+                        2021-2022</br>
+                    <button id="SHSbtn" onclick="toggleImage('AMAcert')">Certificate and Achievement</button></p>
+                    <img id="AMAcert" src="white-space/AMA.jpg" alt="AMA Certificate" style="display: none; width: 300px;">
+                </div>
+
+                <div class="education-box glass" style="background-image: url(skill-box/green1.png);">
+                    <h1 class="SSE">Secondary Education</h1>                    
+                    <p class="SSE-info">Tangos National High School</br>
+                    Navotas City</br>
+                    2015–2019</br></p>
+                </div>
+
+                <div class="education-box glass" style="background-image: url(skill-box/blue.png);">
+                    <h1 class="PE">Primary Education</h1>                    
+                    <p class="PE-info">Tangos I Elementary School</br>
+                    Navotas City</br>
+                    2009–2015</br></p>
+                </div>
+            </div>
+
+            
+        </section>
+
+
+        <section class="skills" id="skills">
+
+            <h3>SKILLS</h3>
+            <div class = "boxes-container-I">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="skill-box/ADOBE.png" alt="Avatar" class="skill-img">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>ADOBE PHOTOSHOP</h1>
+                            <p>Adobe Photoshop is a versatile tool used for editing photos, creating graphics, designing layouts, and making digital art.
+                                It's widely used by photographers, designers, and artists for its powerful features like layering, retouching, and special effects. </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="skill-box/ENGLISH.png" alt="Avatar" class="skill-img">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>ENGLISH</h1>
+                            <p>English is widely used as a global language, serving as a common means of communication across diverse cultures and regions.
+                                It plays a crucial role in international business, education, and technology, connecting people from different backgrounds.
+                                As the dominant language in many fields, such as science, entertainment, and diplomacy, English has become essential for
+                                accessing information.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="skill-box/VIDEO EDITING.png" alt="Avatar" class="skill-img">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>VIDEO EDITING</h1>
+                            <p>Video editing is the process of manipulating and rearranging video footage to create a desired final product. It involves tasks
+                                such as trimming clips, adding transitions, incorporating audio, applying visual effects, and adjusting color. Video editing can
+                                be done using software</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class = "boxes-container-II">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="skill-box/EXCEL.png" alt="Avatar" class="skill-img">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>EXCEL</h1>
+                            <p>Excel is a powerful spreadsheet tool by Microsoft, used for organizing, analyzing, and visualizing data. It offers functions like
+                                formulas, pivot tables, and charts, making it essential for tasks in business, finance, and personal projects.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="skill-box/WORD.png" alt="Avatar" class="skill-img">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>WORD</h1>
+                            <p>Microsoft Word is a word processing application used for creating, editing, and formatting text documents. It offers features like spell check,
+                                templates, tables, and collaboration tools, making it essential for writing reports, letters, and other professional or personal documents.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="skill-box/PPT.png" alt="Avatar" class="skill-img">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>POWERPOINT</h1>
+                            <p>Microsoft PowerPoint is a presentation software used to create slideshows for business, education, or personal use. It allows users to add text,images,
+                                videos, and animations to create engaging presentations.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-information" id="contact">
+
+            <div class="about-me">
+                <h3>ABOUT ME</h3>
+                    <h1>Hello! I'm Simeon Sengco III</h1>
+                    <p>Welcome to my personal portfolio — a space where creativity meets functionality. I'm a passionate <strong>Web Developer</strong> and <strong>UI/UX Designer</strong> with a keen eye for detail and a love for crafting engaging digital experiences. From front-end magic to back-end logic, I turn ideas into interactive, user-centered solutions.<br/>
+                    Explore my work, skills, and journey — and let’s build something great together. <br/><br/><br/>©2025 Simeon Sengco III | All Rights Reserved</p>
+            </div>
+
+            <div class="contact-me">
+                <h3>LET'S CONNECT</h3>
+                    <div class="Container-footer">
+                        <div class="contact-icons">
+                            <a href="https://www.facebook.com/share/1Et2WFJuYK/?mibextid=wwXIfr" target="_blank" class="social-link social-facebook">
+                                <i class="bx bxl-facebook-circle social-icon" aria-hidden="true"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://www.instagram.com/_ibarra1106?igsh=dWFkNTNvY3B2eTZp&utm_source=qr" target="_blank" class="social-link social-instagram">
+                                <i class='bx bxl-instagram social-icon' aria-hidden="true"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://www.threads.com/@_ibarra1106?igshid=NTc4MTIwNjQ2YQ==" target="_blank" class="social-link social-threads">
+                                <img src="icon/threads.svg" class="social-icon-img" alt="Threads">
+                                <span>Threads</span>
+                            </a>
+                            <a href="mailto:sengcosimeon1106@gmail.com" class="social-link social-gmail">
+                                <i class='bx bxl-gmail social-icon' aria-hidden="true"></i>
+                                <span>Gmail</span>
+                            </a>
+                            <a href="mailto:simeonsengco@pure-ride.com" class="social-link social-outlook">
+                                <i class='bx bxl-microsoft social-icon' aria-hidden="true"></i>
+                                <span>Outlook</span>
+                            </a>
+                            <a href="https://www.tiktok.com/@darkedges1106?_t=ZS-8xErPjmxpvp&_r=1" target="_blank" class="social-link social-tiktok">
+                                <i class='bx bxl-tiktok social-icon' aria-hidden="true"></i>
+                                <span>TikTok</span>
+                            </a>
+                            <a href="viber://chat?number=+639934039625" class="social-link social-viber">
+                                <img src="icon/viber.svg" class="social-icon-img" alt="Viber">
+                                <span>Viber</span>
+                            </a>
+                    </div>
+                </div>
+        </section>   
+    
+    <script>
+        // Menu toggle
+        (function(){
+            const toggleBtn = document.getElementById('menu-toggle');
+            const navContainer = document.querySelector('.navigation-container');
+            if(toggleBtn && navContainer){
+                toggleBtn.addEventListener('click', () => {
+                    navContainer.classList.toggle('active');
+                });
+            }
+
+            // Toggle educational certificates
+            window.toggleImage = function(id) {
+                const img = document.getElementById(id);
+                if(!img) return;
+                img.style.display = img.style.display === 'none' || img.style.display === '' ? 'block' : 'none';
+            }
+
+            // Flip-card click handling - apply to all elements with class 'flip-card'
+            document.addEventListener('click', function(e){
+                const card = e.target.closest('.flip-card');
+                if(!card) return;
+                card.classList.toggle('flip');
+            });
+        })();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
